@@ -1,4 +1,8 @@
+
 # Sistema de Gestão de Agendamentos
+
+> 📌 **Navegação recomendada:** a documentação principal do projeto está localizada na pasta [`docs/`](docs/). Nela estão disponíveis o Documento de Visão e os artefatos de Engenharia de Software desenvolvidos durante a análise e modelagem do sistema, incluindo diagramas UML, especificações e documentos técnicos.
+
 
 ## Sobre o projeto
 
