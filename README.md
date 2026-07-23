@@ -1,6 +1,6 @@
 # Appointment Management System — Requirements & Architecture Documentation
 
-> 📌 **Recommended Navigation:** The main project documentation is located in the [`docs/`](./Docs/) directory. It includes the Vision Document and Software Engineering artifacts developed during analysis and modeling. All UML diagrams, specifications, and technical documents can be accessed directly in the [`diagrams/`](./Docs/Diagrams/) folder.
+> 📌 **Recommended Navigation:** The main project documentation is located in the [`docs/`](./Docs/) directory. It includes the Vision Document and Software Engineering artifacts developed during analysis and modeling. All UML diagrams, specifications, and technical documents can be accessed directly in the [`diagrams/`](./Docs/Diagrams/) folder (*Note: Internal project artifacts are written in Portuguese as part of an academic requirement*).
 
 ---
 
