@@ -1,135 +1,65 @@
+# Appointment Management System — Requirements & Architecture Documentation
 
-# Sistema de Gestão de Agendamentos
-
-> 📌 **Navegação recomendada:** a documentação principal do projeto está localizada na pasta [`docs/`](Docs/). Nela estão disponíveis o Documento de Visão e os artefatos de Engenharia de Software desenvolvidos durante a análise e modelagem do sistema, incluindo diagramas UML, especificações e documentos técnicos que poderam ser visualizados unicamente na pasta [`diagrams/`](Docs/Diagrams/) .
-
-
-## Sobre o projeto
-
-Este repositório apresenta a documentação e modelagem de um sistema de gestão de agendamentos, desenvolvido como projeto de Engenharia de Software com foco nas etapas de análise, especificação e planejamento de uma solução computacional.
-
-O objetivo do projeto foi aplicar práticas de engenharia de software para compreender o problema, definir requisitos, antecipar possíveis falhas, estruturar a solução e estabelecer uma base sólida antes da implementação.
-
-A documentação busca demonstrar como um sistema deve ser pensado antes da construção do código, reduzindo ambiguidades, identificando riscos e facilitando futuras etapas de desenvolvimento e manutenção.
+> 📌 **Recommended Navigation:** The main project documentation is located in the [`docs/`](./Docs/) directory. It includes the Vision Document and Software Engineering artifacts developed during analysis and modeling. All UML diagrams, specifications, and technical documents can be accessed directly in the [`diagrams/`](./Docs/Diagrams/) folder.
 
 ---
 
-# Objetivos do projeto
+## About the Project
 
-O projeto foi desenvolvido com foco em:
+This repository presents the comprehensive software engineering documentation and system modeling for an **Appointment Management System**, focusing on the analysis, specification, and architectural design phases.
 
-- Compreensão e delimitação do problema;
-- Identificação dos usuários e suas necessidades;
-- Definição das funcionalidades do sistema;
-- Organização das regras de negócio;
-- Modelagem da solução através de diagramas;
-- Planejamento da arquitetura da aplicação;
-- Documentação das decisões técnicas.
+The goal of this project was to apply core software engineering practices to analyze the domain, define requirements, anticipate potential failure points, structure the solution, and build a solid blueprint before writing code.
+
+By prioritizing planning and design, this documentation demonstrates how a software system should be conceived to eliminate ambiguities, mitigate risks, and facilitate future development and maintenance.
 
 ---
 
-# Processo de Engenharia de Software
+## Project Objectives
 
-Durante o desenvolvimento da documentação foram aplicadas práticas relacionadas às seguintes etapas:
-
-## Levantamento e análise de requisitos
-
-Foram identificados:
-
-- Objetivo do sistema;
-- Público-alvo;
-- Atores envolvidos;
-- Requisitos funcionais;
-- Requisitos não funcionais;
-- Regras de negócio.
-
-Essa etapa teve como objetivo reduzir incertezas e garantir que a solução proposta atendesse corretamente às necessidades identificadas.
+* **Problem Framing:** Define clear boundaries and scope for the application.
+* **Stakeholder Identification:** Map end-users, roles, and business needs.
+* **Requirements & Rules:** Specify functional requirements, non-functional attributes, and business rules.
+* **System Modeling:** Design structural and behavioral aspects using UML diagrams.
+* **Architectural Planning:** Structure application layers, component communication, and system integrity.
+* **Technical Decision Record:** Document engineering trade-offs and design rationale.
 
 ---
 
-## Modelagem do sistema
+## Software Engineering Process
 
-Foram utilizados diagramas UML para representar diferentes perspectivas da aplicação:
+### 1. Requirements Engineering
+* System scope and targeted user profiles.
+* Functional & Non-Functional Requirements definition.
+* Domain constraint mapping and business logic validation.
 
-- Diagrama de Contexto;
-- Diagrama de Casos de Uso;
-- Diagrama de Classes;
-- Diagrama de Atividades;
-- Diagramas de Sequência.
+### 2. System Modeling
+Structural and behavioral perspectives designed with UML:
+* **Context Diagram**
+* **Use Case Diagrams**
+* **Class Diagram**
+* **Activity Diagrams**
+* **Sequence Diagrams**
 
-A modelagem permitiu analisar o comportamento do sistema, suas entidades, relacionamentos e fluxos antes da implementação.
-
----
-
-## Arquitetura da solução
-
-Foi realizada a definição arquitetural do sistema considerando:
-
-- Separação de responsabilidades;
-- Organização dos componentes;
-- Comunicação entre módulos;
-- Escalabilidade e manutenção.
-
-Foram utilizados modelos de arquitetura para representar:
-
-- Containers;
-- Componentes;
-- Estrutura geral da aplicação.
-
+### 3. Software Architecture
+* Separation of Concerns (SoC) and modularization.
+* Layered architectural design.
+* Container and Component diagrams (C4 Model principles).
+* Strategies for scalability, maintainability, and evolution.
 
 ---
 
-# Conhecimentos e habilidades aplicados
+## Applied Skills & Concepts
 
-## Engenharia de Software
-
-- Engenharia de Requisitos;
-- Análise de sistemas;
-- Documentação técnica;
-- Planejamento de software;
-- Identificação de riscos e inconsistências;
-- Organização do ciclo de desenvolvimento.
-
-## Modelagem
-
-- UML;
-- Modelagem estrutural e comportamental;
-- Representação arquitetural;
-- Modelagem de dados.
-
-## Arquitetura de Software
-
-- Separação de responsabilidades;
-- Arquitetura em camadas;
-- Organização de componentes;
-- Pensamento voltado à manutenção e evolução do sistema.
-
-## Boas práticas
-
-- Clareza de requisitos;
-- Redução de ambiguidades;
-- Planejamento antes da implementação;
-- Documentação como ferramenta de comunicação entre equipes.
+| Domain | Key Competencies |
+| :--- | :--- |
+| **Requirements Engineering** | Elicitation, analysis, technical writing, risk identification, scope definition. |
+| **System Modeling** | UML (structural and behavioral), data modeling, domain analysis. |
+| **Software Architecture** | Layered patterns, component organization, system decomposition, SoC. |
+| **Target Tech Stack** | Java, Spring Boot, PostgreSQL, JPA/Hibernate, Git. |
 
 ---
 
-# Tecnologias e conceitos relacionados
+## 📄 Complete Documentation
 
-- Java;
-- Spring Boot;
-- PostgreSQL;
-- JPA/Hibernate;
-- UML;
-- Engenharia de Requisitos;
-- Arquitetura de Software;
-- Git.
-
----
-
-# Documentação completa
-
-A documentação completa do projeto está disponível em:
-
-`docs/Documento_de_Visao.pdf`
-
-
+The core Vision Document and complete theoretical specification can be found at:  
+👉 [`Docs/Documento_de_Visao.pdf`](./Docs/Documento_de_Visao.pdf)
